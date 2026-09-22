@@ -12,7 +12,7 @@ import java.util.Date;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CustomerInformationsDto {
+public class CustomerInformationDto {
     private long customerId;
     private String firstName;
     private String secondName;
