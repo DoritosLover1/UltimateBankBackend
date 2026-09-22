@@ -5,12 +5,16 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.math.BigDecimal;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class LoginInformations {
-    private long loginId;
-    private String identityNumber;
-    private String password;
+public class GeneralAccountDto {
+    private long generalAccountId;
+    private BigDecimal generalAccountBalance;
+    private String generalAccountIBAN;
+    private long accountId;
 }
+
